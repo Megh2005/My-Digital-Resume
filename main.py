@@ -3,9 +3,9 @@ import streamlit as st
 from PIL import Image
 
 current_dir = Path(__file__).parent if "__file__" in locals() else Path.cwd()
-css_file = current_dir / "styles" / "style.css"
-resume_file = current_dir / "assets" / "Resume.pdf"
-profile_pic = current_dir / "assets" / "profile.png"
+css_file = current_dir / "style.css"
+resume_file = current_dir / "Resume.pdf"
+profile_pic = current_dir / "profile.png"
 
 
 PAGE_TITLE = "Digital Resume | Megh Deb"
