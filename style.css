@@ -10,7 +10,7 @@ a {
 }
 
 a:hover {
-    color: yellow !important;
+    color: red !important;
     text-decoration: none;
 }
 
